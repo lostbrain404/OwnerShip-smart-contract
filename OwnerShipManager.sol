@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 /// @title Ownership Manager Contract
-/// @author [Your Name]
+/// @author khalid
 /// @notice This contract manages the ownership of an address and allows ownership transfer by the current owner
 /// @dev The contract sets the deployer as the initial owner and allows ownership to be updated via `SetOwner`
 
