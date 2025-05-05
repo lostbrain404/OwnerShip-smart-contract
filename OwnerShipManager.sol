@@ -15,8 +15,8 @@ contract OwnershipManager {
 
     /// @notice Emitted when the ownership is transferred
     /// @param newOwner The address of the new owner
-    /// @param OldOwner The address of the previous owner
-    event OwnershipTransferred(address indexed newOwner, address indexed OldOwner);
+    /// @param Owner The address of the previous owner
+    event OwnershipTransferred(address indexed newOwner, address indexed Owner);
 
     /// @notice Initializes the contract and sets the deployer as the owner
     constructor() {
